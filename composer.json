@@ -1,0 +1,22 @@
+{
+    "name": "tnhnclskn/efinans-php",
+    "type": "library",
+    "require": {
+        "phpro/soap-client": "dev-master",
+        "symfony/http-client": "6.1.x-dev",
+        "nyholm/psr7": "1.4.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tnhnclskn\\Efinans\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tunahan Caliskan",
+            "email": "mail@tunahancaliskan.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
